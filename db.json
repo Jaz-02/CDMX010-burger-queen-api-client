@@ -1,0 +1,24 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "skarcega@hotmail.com",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+    },
+    {
+      "id": 2,
+      "email": "tokiogoul@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 3,
+      "email": "hola@gmail.com",
+      "passwors": "25d55ad283aa400af464c76d713c07ad"
+    },
+    {
+      "id": 4,
+      "email": "holamundo@hotmail.com",
+      "password": "b0baee9d279d34fa1dfd71aadb908c3f"
+    }
+  ]
+}
