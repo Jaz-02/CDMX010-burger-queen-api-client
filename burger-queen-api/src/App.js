@@ -1,24 +1,39 @@
-// import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Login from './pages/Login';
+import Orders from './pages/Orders';
+//import Routes from './routes/Routes';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  const [authentication, setAuthentication] = useState(false)
+  const handlesetAuthentication = () => {
+    setAuthentication(true)
+  }
+  return (<div className="App">
+    { authentication ? <Router>
+      <Switch>
+      <Route exact path = "/" component = {Orders}/>:
+      <Route  exact path = "/" component = {Login}/>
+      </Switch>
+    </Router> : 
+    <Router>
+      <Switch>
+        <Route exact path = "/">
+          <Login
+          handlesetAuthentication = {handlesetAuthentication}
+          /> 
+        </Route>
+        <Route exact path = "/orders">
+          <Orders
+          handlesetAuthentication = {handlesetAuthentication}
+          /> 
+        </Route>
+      </Switch>
+    </Router>
+}</div>
   );
 }
 

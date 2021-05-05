@@ -1,0 +1,26 @@
+.card{
+    
+    display: flex;
+    /* flex-flow: row wrap; */
+    
+    /* align-items: center; */
+    padding: 5px;
+    margin-left: 50%
+}
+
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    /* margin-left: 20%; */
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+    /* justify-items: right; */
+    text-align: center; 
+    background-color: white;
+
+}

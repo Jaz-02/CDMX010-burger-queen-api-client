@@ -1,0 +1,48 @@
+body {
+    /* background-color: #6EDDEE; */
+    background: linear-gradient( to right, #6EDDEE 60%, #1cbed700 );
+
+}
+
+.login {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid white; */
+    padding: 40px;
+    background: white;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+}
+
+.container-form{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.input-email, .input-password {
+ padding: 10px;
+ 
+
+}
+
+.input{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #2BBED2;
+    font-size: large;
+    text-align: center;
+}
+
+.btn-login{
+    width: 430px;
+    background-color: #0096C7;
+    color: #F6BD60;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;  
+}
