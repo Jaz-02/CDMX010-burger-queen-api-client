@@ -21,7 +21,8 @@ function Cards(){
                 {! breakfasts ? 'cargando...'
                 :breakfasts.map((breakfast, index) =>{
                     return <div className = "item">
-                        {/* <img src = {breakfast.image} alt = "imagen"/> */}
+                          <img className ="breakfasts-img" src = {breakfast.image} alt = "imagen"/>
+                         <br/>
                         {breakfast.item}
                         <br/>
                         {breakfast.price}
