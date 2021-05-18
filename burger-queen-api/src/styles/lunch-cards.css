@@ -1,0 +1,88 @@
+
+/* .container-card { */
+    /* background-color: blue; */
+    /* margin-left: 50%; */
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* .breakfasts-img {
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+} */
+
+
+/* .item {
+    display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* flex-flow: column wrap; */
+    /* margin-left: 20%; */
+    /* margin: 2% 2% 2% 2%;
+    border-radius: 10px;
+    width: 140px;
+    height: 200px; */
+    /* justify-items: right; */
+    /* text-align: center;  */
+    /* background-color: white; */
+    /* color: #F6BD60; */
+    /* background-color: black;
+    font-size:medium; */
+    /* font-weight: bold; */
+    
+
+/* }
+
+.btn-img{
+    background: none;
+    border: 0;
+} */
+
+/* .card{
+    display: flex;
+    flex-flow: row wrap; 
+  
+    padding: 5px;
+    margin-left: 50%;
+    margin-top: 15%;
+    border:solid 1px
+    
+}
+
+.breakfasts-img {
+    width: 205px;
+    height: 150px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    
+    margin: 5% 2% 5% 2%;
+    border-radius: 10px;
+    width: 220px;
+    height: 230px;
+   
+    text-align: center; 
+    background-color: white;
+    color: #F6BD60;
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.btn-img{
+    background: none;
+    border: 0;
+} */
