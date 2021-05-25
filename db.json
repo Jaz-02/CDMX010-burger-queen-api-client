@@ -1,0 +1,79 @@
+{
+  "breakfasts": [
+    {
+      "id": 1,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/breakfasts/coffee.jpg?raw=true",
+      "name": "Café americano",
+      "price": "5"
+    },
+    {
+      "id": 2,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/breakfasts/coffee-milk.jpg?raw=true",
+      "name": "Café con leche",
+      "price": "7"
+    },
+    {
+      "id": 3,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/breakfasts/sandwich.jpg?raw=true",
+      "name": "Sandwich de jamón y queso",
+      "price": "10"
+    },
+    {
+      "id": 4,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/breakfasts/juice.jpg?raw=true",
+      "name": "Jugo de frutas natural",
+      "price": "7"
+    }
+  ],
+
+  "lunch": [
+    {
+      "id": 1,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/simple-burger.png?raw=true",
+      "name": "Hamburguesa simple",
+      "price": "10"
+    },
+    {
+      "id": 2,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/double-burger.jpg?raw=true",
+      "name": "Hamburguesa doble",
+      "price": "15"
+    },
+    {
+      "id": 3,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/french-fries.jpg?raw=true",
+      "name": "Papas fritas",
+      "price": "5"
+    },
+    {
+      "id": 4,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/onion-rings.jpg?raw=true",
+      "name": "Aros de cebolla",
+      "price": "5"
+    },
+    {
+      "id": 5,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/water500.jpg?raw=true",
+      "name": "Agua 500ml",
+      "price": "5"
+    },
+    {
+      "id": 6,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/water750.jpg?raw=true",
+      "name": "Agua 750ml",
+      "price": "7"
+    },
+    {
+      "id": 7,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/soda500.jpg?raw=true",
+      "name": "Bebida/gaseosa 500ml",
+      "price": "7"
+    },
+    {
+      "id": 8,
+      "image":"https://github.com/andreaGuzes/CDMX010-burger-queen-api-client/blob/burger-api/burger-queen-api/src/assets/lunch/soda750.jpg?raw=true",
+      "name": "Bebida/gaseosa 750ml",
+      "price": "10"
+    }
+  ]
+}
